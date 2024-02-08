@@ -1,0 +1,67 @@
+.home-main-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.home-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home-main-title-text {
+    font-family: Quezord;
+    font-size: 16.938rem;
+    color: #FFF;
+    mix-blend-mode: difference;
+    opacity: 0.8;
+    margin: 0;
+    padding:0;
+    line-height: 326px;
+    letter-spacing: -25px;
+    z-index: 2;
+}
+
+.home-main-subtext-text {
+    color: #FFF;
+    font-family: ProFontWindows;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: -60px;
+    padding:0;
+    max-width:611px ;
+    z-index: 2;
+}
+.home-explore-button {
+    height: 40px;
+    width: 119px;
+    border-radius: 8px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 24px;
+    padding:0;
+    cursor: pointer;
+    z-index: 2;
+}
+.home-explore-button-text {
+    color: #CF3A1B;
+    margin: 0px;
+    padding: 0px;
+    font-family: ProFontWindows;
+    font-size: 18px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.mars-main-image-home {
+    width: 560px;
+    height: 560px;
+    position: absolute;
+    z-index: 0;
+}

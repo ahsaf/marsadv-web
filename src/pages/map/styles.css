@@ -1,0 +1,8 @@
+.map-main-container {
+    background-color: #e27650;
+    width: 100vw;
+    height: 100vh;
+}
+.mapBg {
+    object-fit:fill;
+}

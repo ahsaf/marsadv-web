@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "Quezord";
+  src: local("Quezord"),
+   url("assets/fonts/Quezord.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProFontWindows";
+  src: local("ProFontWindows"),
+   url("assets/fonts/ProFontWindows.ttf") format("truetype");
+}
