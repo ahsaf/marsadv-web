@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+.textTest {
+	color: white;
+	margin-top: 12px;
+	width: 120px;
+}
 html, body{
 	overflow: hidden;
 	font-family: sans-serif;

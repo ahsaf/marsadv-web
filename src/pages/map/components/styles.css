@@ -116,13 +116,16 @@
     align-items: center;
     overflow: hidden;
 }
+
 .land-details-qrcode-img {
     width: 39px;
     height: 39px;
 }
+
 .land-details-size-id-container {
     flex: 1;
 }
+
 .land-details-qr-code-size-container {
     display: flex;
     margin-top: 23px;
@@ -131,6 +134,7 @@
     width: calc(100% - 40px);
     z-index:2;
 }
+
 .land-details-size-text {
     color: #FFF;
     font-family: ProFontWindows;
@@ -138,6 +142,7 @@
     margin: 0px;
 
 }
+
 .land-details-qr-id-text {
     color: #FFF;
     font-family: ProFontWindows;
@@ -148,6 +153,7 @@
     
 
 }
+
 .land-details-sale-icon {
     width: 17px;
     height: 17px;
@@ -159,7 +165,7 @@
 }
 .land-details-price-tag-container {
     position: absolute;
-    top:160px;
+    top:166px;
     display: flex;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
@@ -168,6 +174,7 @@
     align-items: center;
     justify-content: center;
     z-index: 10;
+    height: 36px;
 }
 .land-details-share-buy-button {
     display: flex;

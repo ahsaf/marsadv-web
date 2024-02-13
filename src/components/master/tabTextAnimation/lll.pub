@@ -1,0 +1,14 @@
+mixin list-item(link, title)
+  li.list-item
+    a.item-link(class=title, href=link, target="blank")= title
+
+.content
+  h1.random Umar Farooq.cbs
+.social
+  ul#social-list
+    +list-item('https://t.me/umarcbs', 'Telegram')
+    +list-item('https://twitter.com/umarcbs', 'Twitter')
+    +list-item('https://www.medium.com/@umarcbs', 'Medium')
+    +list-item('https://codepen.io/umarcbs/', 'Codepen')
+    +list-item('https://github.com/umarcbs', 'Github')
+script(async, src="main.js")

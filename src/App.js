@@ -12,20 +12,29 @@ import 'react-toastify/dist/ReactToastify.css';
 const stripePromise = loadStripe('pk_test_51OgOnBKwTyoiG7Mw5lBCrk1RcGJNj93qgK4kseZ80z9b03Xpye6ldhw1kGzxUIYF8QIsVMra1RnAODw0Ts0SORk400x7jmulRe');
 
 function App() {
+  
   // const options = {
   //   // passing the client secret obtained from the server
   //   clientSecret: 'asdasdsadsa',
   // };
+  
   return (
     // <Elements stripe={stripePromise} options={options}>
       <div className="App">
+        {window.innerWidth > 650?
         <BrowserRouter>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/map" element={<MapPage />} />
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter>:
+        <div>
+          <p>Please Open in your PC</p>
+        </div>
+        }
         <ToastContainer />
+          
+        
       </div>
     // </Elements>
   );

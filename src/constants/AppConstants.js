@@ -3,5 +3,5 @@ export const AppConstans = {
     mapHeight: 1954,
     boxCountX:20,
     boxCountY:10 ,
-    boxSize:20
+    boxSize:20 //3 for 900K
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import './styles.css';
-import marsLogo from '../../assets/images/marslogo.png';
+import marsLogo from '../../assets/images/marsglob.png';
 import {colours} from '../../styles/colours';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { GetPath } from '../../utils/helper';
-import TabText from './tabTextAnimation/tabText';
+// import TabText from './tabTextAnimation/tabText';
 export default function AppHeader(props) {
         const location = useLocation();
         const navigate = useNavigate();
@@ -48,7 +48,6 @@ export default function AppHeader(props) {
                     style={{
                         borderRight:index == 4?"none": "#FFF 1px solid",
                         backgroundColor:GetPath(location) === item.path?"white":null
-                        
                     }}
                     className={`header-tab-single-container `}>
                         <p className='heade-tab-text'

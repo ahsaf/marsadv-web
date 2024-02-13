@@ -17,7 +17,7 @@ export default function LandCard(props) {
                 </div>
                 <img src={qrcode} className='land-details-qrcode-img' />
             </div>
-            {/* Sale Amout card */}
+             {/* Sale Amout card */}
             <div className='land-details-price-tag-container'>
                 <img src={saleIcon} className='land-details-sale-icon' />
                 <p className='land-details-price-text'>$1000</p>
