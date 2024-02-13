@@ -9,7 +9,7 @@
     left: 100px;
     right: 100px;
     align-items: center;
-    z-index: 2;
+    z-index: 4;
 }
 
 .header-logo-container {
@@ -17,6 +17,7 @@
    margin: 0;
    padding: 0;
    align-items: center;
+   cursor: pointer;
 }
 .header-mars-text {
     color: white;
@@ -27,6 +28,7 @@
     line-height: 54px;
     letter-spacing: -3;
     display: flex;
+    cursor: pointer;
 
 }
 .header-mars-subtext {
@@ -38,6 +40,8 @@
     width: 40px;
     height: 40px;
     margin-top: -4px;
+    cursor: pointer;
+    
 }
 .header-tab-container {
     display: flex;
@@ -71,5 +75,5 @@
    color: #000;
 }
 .header-tab-single-container:hover {
-    background-color: #FFF;
+    background-color: rgba(256, 256, 256, 0.3);
  }

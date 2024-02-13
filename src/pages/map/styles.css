@@ -4,5 +4,22 @@
     height: 100vh;
 }
 .mapBg {
-    object-fit:fill;
+   width: 3908px;
+   height: 1954px;
 }
+.map-container {
+    width: 3908px;
+    height: 1954px;
+ }
+ .map-land-image {
+    position: absolute;
+    object-fit: cover;
+    z-index: 2;
+ }
+
+ .map-active-layer {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  z-index: 3;
+  
+ }

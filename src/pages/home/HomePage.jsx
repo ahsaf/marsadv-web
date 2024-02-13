@@ -3,10 +3,12 @@ import './styles.css';
 import TopOwnersList from './components/TopOwnersList';
 import PriceTag from './components/PriceTag';
 import marsImage from '../../assets/images/marsmain.png'
+import AppLayout from '../../layouts/AppLayout';
 export default function HomePage(props) {
     
 
     return (
+        <AppLayout>
         <div className='home-main-container'>
            <div className="home-title-container">
             <img src={marsImage} className='mars-main-image-home' />
@@ -19,5 +21,6 @@ export default function HomePage(props) {
            <TopOwnersList />
            <PriceTag />
         </div>
+        </AppLayout>
     )
 }

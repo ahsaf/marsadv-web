@@ -5,21 +5,21 @@ export default function TopOwnersList(props) {
     const ownersList = [
         {
             id:"01",
+            name:"JACK",
+            count:171,
+            country:"cn"
+        },
+        {
+            id:"02",
             name:"AHSAF MALIK",
             count:145,
             country:"in"
         },
         {
-            id:"02",
+            id:"03",
             name:"WISSAL",
             count:123,
             country:"tn"
-        },
-        {
-            id:"03",
-            name:"JACK",
-            count:111,
-            country:"cn"
         },
         {
             id:"04",

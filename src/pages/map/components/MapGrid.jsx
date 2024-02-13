@@ -1,18 +1,19 @@
 import React from 'react'
+import { AppConstans } from '../../../constants/AppConstants';
 
 export default function MapGrid(props) {
-    
-        const drawgrid = ()=>{
+
+        const drawgridX = ()=>{
             let lins = [];
-            for (let index = 0; index < 30; index++) {
-                lins.push(<div style={{marginTop:30, height:1,backgroundColor:"#000",width:"100%"}} />)
+            for (let index = 0; index < AppConstans.mapHeight/(AppConstans.boxSize+1) -1; index++) {
+                lins.push(<div style={{marginTop:AppConstans.boxSize, height:1,backgroundColor:"rgba(0,0,0,0.3)",width:AppConstans.mapWidth}} />)
             }
             return lins;
         }
         const drawgridY = ()=>{
             let lins = [];
-            for (let index = 0; index < 60; index++) {
-                lins.push(<div style={{marginLeft:30, height:"100%",backgroundColor:"#000",width:1}} />)
+            for (let index = 0; index < AppConstans.mapWidth/(AppConstans.boxSize + 1) -1; index++) {
+                lins.push(<div style={{marginLeft:AppConstans.boxSize, height:AppConstans.mapHeight,backgroundColor:"rgba(0,0,0,0.3)",width:1}} />)
             }
             return lins;
         }
@@ -23,23 +24,17 @@ export default function MapGrid(props) {
         style={{
             position:"absolute",
             top:0,
-            bottom:0,
             left:0,
-            right:0
         }}
-        
         >
-           {drawgrid()}
-
+           {drawgridX()}
         </div>
         <div 
         style={{
             position:"absolute",
+            display:'flex',
             top:0,
-            bottom:0,
             left:0,
-            right:0,
-            display:'flex'
         }}
         
         >

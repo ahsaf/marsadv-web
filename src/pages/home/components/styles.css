@@ -38,22 +38,28 @@
     margin: 0;
 }
 .home-pricetag-container {
-    position: absolute;
+    position: fixed;
     bottom: 100px;
     left: 50px;
     width: 505px;
     height: 155px;
-    /* background-color: gray; */
+    z-index: 3;
 
+}
+.home-pricetag-card-container {
+    width: 300px;
+    height: 104px;
+    z-index: 3;
+    position: relative;
 }
 .home-tagPriceBorder {
     width: 300px;
     height: 104px;
     position: absolute;
-    bottom: 0px;
-    left: 38px;
+    top: 0px;
+    left: 0px;
     z-index: 1;
-    backdrop-filter: blur(2px);
+  
 }
 .home-hometagarrow {
     width: 188px;
@@ -61,7 +67,6 @@
     position: absolute;
     top: 10px;
     right: -8px;
- 
 }
 
 .tag-left-text-container {
@@ -85,10 +90,18 @@
 .tag-main-container {
     width: 300px;
     height: 104px;
-    margin-top: 50px;
-    margin-left: 38px;
     display: flex;
     z-index: 3;
+}
+.price-tag-blur {
+    width: 300px;
+    height: 104px;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    border-radius:16px;
+    border-bottom-right-radius:70px;
+    
+
 }
 .tag-left-container {
     z-index: 3;
